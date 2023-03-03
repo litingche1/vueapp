@@ -1,0 +1,17 @@
+@charset "utf-8";
+@mixin button($background: green) {  
+    font-size: 1em;  
+    padding: 0.5em 1.0em;  
+    text-decoration: none;  
+    color: red;  
+    background: $background;  
+}
+@mixin text($color:red) {
+    color:$color
+}
+@mixin background($back:#58bc58) {
+    background: $back;
+}
+@mixin display($display:flex) {
+    dispaly:flex;
+}
